@@ -12,7 +12,7 @@
 substitutions:
   # The branch of the components, as in the screen's own package (packages/<key>.yaml): the bridge carries the
   # screen's substitutions, so a screen of the dev channel builds its bridge from dev as well.
-  GITHUB_REF: "main"
+  GITHUB_REF: "release-candidate"
 
 packages:
   build: !include hardware/esp-idf.yaml
